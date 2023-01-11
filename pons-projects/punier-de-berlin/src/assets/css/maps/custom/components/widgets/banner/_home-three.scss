@@ -1,0 +1,23 @@
+.banner-slider-3 {
+    position: relative;
+	.slider-1 {
+		height: 176px;
+		width: 200px;
+    background: url(../images/banner/banner-3-shap1.png) no-repeat top;
+    position: absolute;
+    top: -55px;
+    left: -22px;
+		z-index: 9;
+		background-size: 73%;
+	}
+	.slider-2 {
+		height: 180px;
+		width: 200px;
+		background: url(../images/banner/banner-3-shap-2.png) no-repeat top center;
+		position: absolute;
+		top: 270px;
+    left: 25%;
+    z-index: 99;
+    background-size: 45%;
+	}
+}

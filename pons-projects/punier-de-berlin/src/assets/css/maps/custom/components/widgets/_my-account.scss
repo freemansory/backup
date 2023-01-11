@@ -1,0 +1,25 @@
+.password-input{
+    position: relative;
+}
+.show-password-input{
+    position: absolute;
+    right: -76rem;
+    top: 2.7rem;
+    cursor: pointer;
+}
+.right{
+    max-width: 1700px;
+}
+@include media-breakpoint-down(sm) { 
+    .show-password-input{
+        position: absolute;
+        right: -11rem;
+        top: 2.7rem;
+        cursor: pointer;
+    }
+} 
+@include media-breakpoint-down(sm) { 
+    .main{
+        padding: 30px 15px;
+    }
+}

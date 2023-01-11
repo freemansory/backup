@@ -1,0 +1,20 @@
+.iq-radius-top-left {
+	.elementor-column-wrap {
+		border-radius: 60px 0 0 0;
+	}
+}
+.iq-radius-top-right {
+	.elementor-column-wrap {
+		border-radius: 0 60px 0 0;
+	}
+}
+.iq-radius-bottom-right {
+	.elementor-column-wrap {
+		border-radius: 0 0 60px 0;
+	}
+}
+.iq-radius-bottom-left {
+	.elementor-column-wrap {
+		border-radius: 0 0 0 60px;
+	}
+}

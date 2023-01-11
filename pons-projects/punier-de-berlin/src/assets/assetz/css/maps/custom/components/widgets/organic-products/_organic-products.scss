@@ -1,0 +1,45 @@
+.organic-products {
+
+    .iq-product-offer-block {
+        position: relative;
+        overflow: hidden;
+        border-radius: $border-radius;
+        min-height: 480px;
+
+        .iq-offer-title {
+            font-size: 39px;
+            margin-bottom: 30px;
+        }
+    }
+    .iq-offer-back-img {
+        background-color: $white;
+        background-image: url("../images/category-product/banner.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+        
+    .iq-product-block {
+        .iq-product-img {
+            width: 120px;
+            height: 120px;
+            -ms-flex-item-align: center !important;
+            align-self: center !important;
+            overflow: hidden;
+        }
+        .card-product {
+            .iq-product-info {
+                h5 {
+                    transition: all 0.3s ease-out 0s;
+                }
+            }
+            &:hover {
+                .iq-product-info {
+                    h5 {
+                        color: $primary;
+                    }
+                }
+            }
+        }
+    }
+}

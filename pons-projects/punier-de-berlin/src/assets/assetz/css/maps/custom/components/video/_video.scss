@@ -1,0 +1,112 @@
+
+.video{
+    .background-overlay {
+        position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       background-color:$black;
+       opacity: 0.6;
+     }
+     .iq-title-box{
+         z-index: 1;
+     }
+    .iq-popup-video {
+        min-height: 18.75rem;
+        .position-relative {
+            min-height: 18.75rem;
+        }
+    }
+    .iq-video-img {
+        position: relative;
+    }
+    .iq-video-icon {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    .iq-video {
+        display: inline-block;
+        vertical-align: middle;
+        width: 5rem;
+        height: 5rem;
+        text-align: center;
+        font-size: 1.5rem;
+        color: $white;
+        line-height: 5rem;
+        z-index: 9;
+        position: relative;
+    }
+    .iq-waves {
+        position: absolute;
+        width: 14rem;
+        height: 14rem;
+        left: - 5rem;
+        top: - 5rem;
+        z-index: 2;
+        float: right;
+        opacity: 0.2;
+        .waves {
+            position: absolute;
+            width: 15rem;
+            height: 15rem;
+            background: $secondary;
+            opacity: 0;
+            border-radius: 20rem;
+            background-clip: padding-box;
+            -webkit-animation: waves 3s ease-in-out infinite;
+            animation: waves 3s ease-in-out infinite;
+        }
+        .wave-1 {
+            -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+        }
+        .wave-2 {
+            -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+        }
+        .wave-3 {
+            -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+        }
+    }
+}
+@-webkit-keyframes waves {
+	0% {
+		-webkit-transform: scale(0.2, 0.2);
+		transform: scale(0.2, 0.2);
+		opacity: 0;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	}
+	50% {
+		opacity: 0.9;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	}
+	100% {
+		-webkit-transform: scale(0.9, 0.9);
+		transform: scale(0.9, 0.9);
+		opacity: 0;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	}
+}
+@keyframes waves {
+	0% {
+		-webkit-transform: scale(0.2, 0.2);
+		transform: scale(0.2, 0.2);
+		opacity: 0;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	}
+	50% {
+		opacity: 0.9;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	}
+	100% {
+		-webkit-transform: scale(0.9, 0.9);
+		transform: scale(0.9, 0.9);
+		opacity: 0;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	}
+}

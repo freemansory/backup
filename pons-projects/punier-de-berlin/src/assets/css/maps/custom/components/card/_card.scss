@@ -1,0 +1,28 @@
+.card {
+    margin-bottom: $grid-gutter-width;
+    box-shadow: $card-box-shadow;
+	overflow: hidden;
+    border-radius: $border-radius;
+	border: 0;
+
+	&.card-product {
+		.card-body {
+			padding: 10px;
+		}
+	}
+    .card-header {
+		margin-bottom: 0;
+		border: 0;
+		padding-bottom: 0;
+		.header-title {
+			.card-title {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+.card-header {
+    .card-title {
+        margin-bottom: 0;
+    }
+}

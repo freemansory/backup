@@ -1,0 +1,24 @@
+.product-table{
+    width: 100%;
+    border: 1px solid $gray-500;
+    border-radius: 5px;
+    margin: 0 -1px 24px 0;
+    .rowpad{
+        padding: 15px 15px;
+    }
+} 
+.block1 {
+    padding: 1em 2em 1em 3.5em;
+    display: block;
+    text-decoration: none;
+    margin: 0 0 30px;
+    border-radius: 5px;
+    background-color: tint-color($primary, 70%);
+}
+.block2 {
+    display: block;
+    text-decoration: none;
+    margin: 0 0 30px;
+    border-radius: 5px;
+    background-color: tint-color($primary, 70%);
+}

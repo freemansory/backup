@@ -1,0 +1,31 @@
+.product-left-sidebar{
+    .input-group1 {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        width: 100%;
+        .text-search{
+            position: relative;
+            padding: 10px 15px;
+            margin-bottom: 0px 0px 30px;
+            width: 100%;
+            background-color: rgba($secondary, .2);
+            border: 1px solid transparent;
+            border-color: $secondary ;
+            color: $body-color;
+            border-radius: 5px !important;
+            transition: all 0.5s ease-in-out;
+            &:focus {
+                background-color: rgba($secondary, .2);
+                border-color: $primary ;
+            }
+        }
+        .search-icon {
+            position: absolute;
+            right: 15px;
+            top: 10px;
+            z-index: 1;
+        }
+    }
+}

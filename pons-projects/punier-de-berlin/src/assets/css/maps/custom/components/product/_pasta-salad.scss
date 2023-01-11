@@ -1,0 +1,21 @@
+.iq-sold{
+    position: relative;
+    .iq-sold-out{
+        padding: 10px 15px;
+        min-height: auto;
+        min-width: auto;
+        line-height: normal;
+        top: 0;
+        left: 0;
+        border-radius: 5px;
+        line-height: normal;
+        background: $primary;
+        font-weight: 700;
+        position: absolute;
+        text-align: center;
+        margin: 0;
+        color: #fff;
+        font-size: .857em;
+        z-index: 9;
+    }
+}

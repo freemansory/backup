@@ -1,0 +1,396 @@
+@include media-breakpoint-down(lg) { 
+    .product-images-list{
+        .md-top{
+            margin-top: 25px;
+        }
+    }
+    .tabs-panel{
+        .iq-main{
+            flex-wrap: nowrap;
+        }
+    }
+ }
+ @include media-breakpoint-down(xl) { 
+    .content-card{
+        margin-top: 25px;
+    }
+ }
+ @include media-breakpoint-down(sm) { 
+    .product-images-list{
+        .sm-top{
+            margin-top: 25px;
+        }
+    }
+ }
+// .flex-control-thumbs {
+//     margin: 25px -11px;
+// }
+// .img-leaf{
+//     border-radius: 5px;
+// }
+// .summary.entry-summary {
+//     padding: 30px;
+//     border: 1px solid var(--white-light-color);
+//     border-radius: 5px;
+//     float: right;
+//     clear: none;
+//     // .posted_in.iq-meta-list {
+//     //     margin-bottom: 30px;
+//     //     display: block;
+//     //     .iq-product-meta-title {
+//     //         margin-right: 5px;
+//     //         font-family: 'Poppins', sans-serif;
+//     //         color: var(--title-color);
+//     //         font-size: 18px;
+//     //     }
+//     // }
+//     // .product-rating {
+//     //     line-height: 2;
+//     //     display: block;
+//     //     margin-bottom: 0;
+//     //     .star-rating {
+//     //         float: right;
+//     //         overflow: hidden;
+//     //         position: relative;
+//     //         height: 1em;
+//     //         line-height: 1;
+//     //         font-size: 1em;
+//     //         width: 5.4em;
+//     //         font-family: star;
+//     //         margin: .5em 4px 0 0;
+//     //         float: left;
+//     //     }
+//     // }
+//     // .review-link {
+//     //     margin-left: 15px;
+//     //     color: $primary;
+//     //     text-decoration: none;
+//     // }
+//     // .review-link:hover {
+//     //     color: var(--secondary-color);
+//     // }
+//     .price {
+//         color: var(--primary-color);
+//         font-size: 2.25em;
+//         font-family: 'Poppins', sans-serif;
+//         margin: 0 0;
+//     }
+// .iq-product-policy {
+//     ul {
+//         list-style: none;
+//         padding: 0;
+//         margin: 0;
+//         li{
+//             a {
+//                 padding: 15px;
+//                 display: block;
+//                 color: $primary;
+//                 text-decoration: none;
+//                 margin-bottom: 8px;
+//                 border-radius: 5px;
+//             }
+//             a:hover {
+//                 color: var(--secondary-color);
+//             }
+//         } 
+//         .iq-product-policy-info{
+//             img {
+//                 margin-right: 15px;
+//             }
+//         }
+//     }
+// }
+
+.block {
+    ul {
+        padding: 0;
+        margin: 0;
+        li{
+            list-style: none;
+            display: block;
+            a {
+                padding: 15px;
+                display: block;
+                text-decoration: none;
+                color: $gray-900;
+                margin-bottom: 8px;
+                border-radius: 5px;
+                background-color: rgba($primary, .2);
+                i{
+                    color: $primary;
+                }
+            }
+        } 
+    }
+}
+.tabs-wrapper{
+    ul{
+        li:hover {
+            background: $primary;
+            border-radius: 5px;
+            >a{
+                color: $white;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+.nav-link {
+    display: block;
+    padding: .75rem 1.875rem;
+    color: $black;
+    
+}
+
+.form-submit {
+    display: inline-block;
+    width: 100%;
+    .submit{
+        background: $primary;
+        color: $white;
+        padding: 14px 30px;
+        border-radius: 5px;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: normal;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+        .input {
+            left: auto;
+        }
+    }
+    .submit:hover{
+        background: $secondary;
+        color: $white;
+    }
+}
+
+//     //     }
+//     //     .iq-product-policy-info{
+//     //         img {
+//     //             margin-right: 15px;
+//     //         }
+//     //     }
+//     // }
+// }
+// .wc-{
+//     padding: 30px;
+//     box-shatabs-wrapperdow: 0px 1px 30px 0px rgba(36, 38, 43 , .1);
+//     ul.tabs {
+//         padding: 0;
+//         margin: 0 0 45px;
+//         align-items: flex-start;
+//         display: flex;
+//         list-style: none;
+//         position: relative;
+//         overflow: hidden;
+//         li{
+//             display: inline-block;
+//             width: auo;
+//             margin: 0;
+//             padding: 0;
+//             text-align: center;
+//             border: none;
+//             border-radius: 5px;
+//             margin-right: 15px;
+//         }
+//         li:hover {
+//             border-bottom-color: #fff;
+//         }
+//         li.active {
+//             z-index: 2;
+//             background: var(--primary-color);
+            
+//         }
+//     }
+//     .nav {
+//         background: #fff;
+//         padding: 0;
+//         margin: 0 0 45px;
+//         .nav-slider {
+//             position: relative;
+//             .nav-item {
+//                 z-index: 3;
+//             }
+//             .nav-link.active {
+//                 background-color: inherit;
+//             }
+//         }
+//         .nav-pills {
+//             border-radius: 50rem;
+//             margin-bottom: .5rem;
+//             .nav-link {
+//                 background: none;
+//                 border: 0;
+//                 border-radius: 50rem;
+//                 display: block;
+//                 padding: 0.5rem 1rem;
+//                 transition: all 300ms ease-in-out;
+//             }
+//             .nav-link.active{
+                
+//                 color: #fff;
+//             }
+//         }
+//     }
+//     // .tabs-panel {
+//     //     margin: 0;
+//     //     padding: 0;
+//     //     ul {
+//     //         li {
+//     //             color: var(--primary-color);
+//     //             font-weight: 500;
+//     //         }
+//     //     }
+//     //     .shop-attributes {
+//     //         border: 1px solid var(--primary-color);
+//     //         border-collapse: separate;
+//     //         border-radius: 5px;
+//     //         margin: 0;
+//     //         width: 100%;
+//     //         tr {
+//     //             display: table-row;
+//     //             vertical-align: inherit;
+//     //             border-color: inherit;
+//     //         }
+//     //         th {
+//     //             width: 150px;
+//     //             border-right: 1px solid var(--primary-color);
+//     //             font-weight: 600;
+//     //             padding: 10px 5px 10px 25px;
+//     //             border-top: 0;
+//     //             margin: 0;
+//     //             color: var(--title-color);
+                
+//     //         }
+//     //         td {
+//     //             padding: 8px 30px;
+//     //             border-top: 0;
+//     //             margin: 0;
+//     //             border: 0;
+//     //             vertical-align: text-bottom;
+//     //             line-height: 2em;
+//     //             text-align: left;
+//     //             font-style: italic;
+//     //         }
+//     //         tr:nth-child(even) th {
+//     //             background: rgba(0,0,0,.025);
+//     //         }
+//     //         tr:nth-child(even) td {
+//     //             background: rgba(0,0,0,.025);
+//     //         }
+//     //     }
+//     //     .commentlist {
+//     //         margin: 0;
+//     //         width: 100%;
+//     //         background: 0 0;
+//     //         padding: 0;
+//     //         li {
+//     //             list-style: none;
+//     //             padding: 0;
+//     //             margin: 0 0 20px;
+//     //             position: relative;
+//     //             background: 0;
+//     //             border: 0;
+//     //             .comment_container {
+//     //                 display: flex;
+//     //                 img.avatar {
+//     //                     float: left;
+//     //                     top: 0;
+//     //                     left: 0;
+//     //                     background: #ebe9eb;
+//     //                     border: 1px solid #e4e1e3;
+//     //                     margin: 0;
+//     //                     box-shadow: none;
+//     //                     position: relative;
+//     //                     padding: 0;
+//     //                     height: 80px;
+//     //                     width: 80px;
+//     //                     border-radius: 90px;
+//     //                 }
+//     //                 .comment-text {
+//     //                     border: none;
+//     //                     flex: 1;
+//     //                     padding: 0;
+//     //                     margin: 0 0 0 30px;
+//     //                     border-radius: 4px;
+//     //                     .star-rating {
+//     //                         float: right;
+//     //                         overflow: hidden;
+//     //                         position: relative;
+//     //                         height: 1em;
+//     //                         line-height: 1;
+//     //                         font-size: 1em;
+//     //                         width: 5.4em;
+//     //                         font-family: star;
+//     //                     }
+//     //                     .meta {
+//     //                         margin-bottom: 5px;
+//     //                         .review__author {
+//     //                             font-family: 'Poppins', sans-serif;
+//     //                             color: var(--title-color);
+//     //                             font-size: 18px;
+//     //                             display: block;
+//     //                             text-transform: uppercase;
+//     //                         }
+//     //                         .review__dash{
+//     //                             display: none;
+//     //                         }
+//     //                         .review__published-date{
+//     //                             color: var(--primary-color);
+//     //                             font-weight: bold;
+//     //                             font-size: 14px;
+//     //                             text-transform: uppercase;
+//     //                             display: inline-block;
+//     //                             width: 100%;
+//     //                             margin: 5px 0;
+//     //                         }
+//     //                     }
+//     //                 }
+//     //             }
+//     //         }
+//     //     }
+//     // }
+//     .comment-respond{
+//         position: static;
+//         margin: 0;
+//         width: auto;
+//         padding: 0;
+//         background: transparent none;
+//         border: 0;
+//         .comment-reply-title {
+//             font-family: 'Poppins', sans-serif;
+//             color: var(--title-color);
+//             position: relative;
+//             padding-bottom: 0;
+//             display: block;
+//             font-size: 26px;
+//             margin-top: 50px;
+//             margin-bottom: 10px;
+//             a {
+//                 color: var(--secondary-color);
+//                 font-size: 80%;
+//                 margin-left: 30px;
+//                 line-height: normal;
+//                 vertical-align: middle;
+//                 outline: medium none !important;
+//             }
+//         }
+//         .comment-form-rating {
+//             label {
+//                 color: var(--title-color);
+//                 display: inline-block;
+//                 font-family: 'Poppins', sans-serif;
+//                 margin-bottom: 15px;
+//                 font-size: 16px;
+//                 font-weight: 500;
+//                 transition: .5s;
+//             }
+//         }
+
+//     }
+// }
+// .product-images-list {
+//     margin-top: 30px;
+//     margin-bottom: 30px;
+// }

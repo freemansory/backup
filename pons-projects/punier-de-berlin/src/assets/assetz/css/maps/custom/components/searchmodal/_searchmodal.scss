@@ -1,0 +1,25 @@
+.search_count{
+    .modal.show {
+        .modal-dialog{
+        border: 15px solid var(--bs-blue);
+        opacity: 0.9;
+        background-color: black;
+    }
+    .modal-content{
+        background-color: black;
+        button{
+            color:var(--bs-blue);
+        }
+        .modal-body{
+            input,input::-webkit-input-placeholder {
+                font-size: 40px;
+                line-height: 1.5;
+                color:white
+                }
+                a{
+                    color: white;
+                }
+            }
+        }
+    }
+}

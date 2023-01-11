@@ -1,0 +1,13 @@
+
+.custom-pagination {
+    .page-link {
+        height: 45px;
+        width: 45px;
+        border-radius: $pagination-border-radius;
+        margin: 0 $spacer * 1;
+        // text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

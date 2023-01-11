@@ -1,0 +1,168 @@
+.iq-breadcrumb {
+	padding: 150px 0 100px;
+	background: rgba($primary,0.2);
+	nav {
+		display: inline-block;
+		margin-top: 0;
+	}
+	&.text-left {
+		.breadcrumb {
+			z-index: 86;
+			text-align: left;
+			position: relative;
+			color:$headings-color;
+			margin-bottom: 0;
+			display: inline-block;
+			width: 100%;
+			padding: 10px 0;
+			background: none;
+			li {
+				display: inline-block;
+				word-break: break-all;
+				a {
+					i {
+						font-size: 18px;
+						margin-right: 6px;
+					}
+				}
+			}
+		}
+	}
+}
+.iq-breadcrumb .title,
+.iq-breadcrumb-one .title {
+	color:$headings-color;
+	text-transform: capitalize;
+}
+.breadcrumb-item {
+	& + .breadcrumb-item {
+		&::before {
+			padding-right: 1rem;
+		}
+	}
+}
+.iq-breadcrumb.text-left .breadcrumb li,
+.iq-breadcrumb.text-left .breadcrumb li a:hover {
+	color:$headings-color;
+	text-decoration: none;
+}
+.iq-breadcrumb.text-left .breadcrumb li a,
+.iq-breadcrumb.text-left .breadcrumb-item+.breadcrumb-item::before {
+	color:$headings-color;
+	margin-bottom: 0;
+}
+.breadcrumb {
+	li {
+		display: inline-block;
+		word-break: break-all;
+	}
+}
+.iq-breadcrumb-two {
+	position: relative;
+	z-index: 2;
+	.breadcrumb {
+		display: inline-block;
+	}
+	ol {
+		li {
+			display: inline-block;
+		}
+	}
+}
+.iq-breadcrumb-one {
+	display: block;
+	padding: 150px 0 100px;
+	z-index: 9;
+	position: relative;
+	background: rgba($primary,0.2);
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	&::before {
+		position: absolute;
+		left: 0;
+		right: 0;
+		content: "";
+		width: 100%;
+		height: 100%;
+		top: 0;
+	}
+	ol {
+		background: transparent;
+		padding: 0;
+		margin-bottom: 0;
+		margin-top: 15px;
+		li {
+			list-style: none;
+			display: inline-block;
+			color:$headings-color;
+			a {
+				color:$headings-color;
+				text-decoration: none;
+			}
+		}
+	}
+	.breadcrumb-item {
+		& + .breadcrumb-item {
+			&::before {
+				content: "\f054";
+				color:$headings-color;
+				font-family: "Font Awesome 5 Free";
+				font-weight: 900;
+			}
+		}
+	}
+	.breadcrumb {
+		position: relative;
+		display: inline-block;
+	}
+	&.iq-bg-over {
+		&::before {
+			height: 100%;
+			width: 100%;
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 0;
+			z-index: 0;
+			display: block;
+		}
+	}
+}
+.iq-breadcrumb-one .breadcrumb-item.active,
+.iq-breadcrumb-one ol li a:hover {
+	color: $primary;
+	position: relative;
+}
+.iq-breadcrumb-three {
+	padding: 45px 0;
+	.breadcrumb {
+		margin-top: 0;
+	}
+	.iq-breadcrumb-one {
+		padding: 0;
+	}
+}
+.breadcrumb-bg,
+.breadcrumb-video,
+.video-iq-bg-over {
+	position: relative;
+	overflow: hidden;
+	background-size: cover !important;
+}
+.breadcrumb-bg video,
+.breadcrumb-bg #video-background,
+.breadcrumb-video video,
+.video-iq-bg-over video,
+.video-breadcrumb-bg #video-background,
+.video-iq-bg-over #video-background {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: inline-block;
+	width: 100%;
+}
+.breadcrumb-bg.iq-over-dark-80:before,
+.breadcrumb-ui:before {
+	z-index: 0;
+}

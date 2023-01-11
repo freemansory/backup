@@ -1,0 +1,9 @@
+.btn-icon {
+    padding: $btn-icon-padding-y $btn-icon-padding-x;
+    &.btn-sm {
+        padding: $btn-icon-padding-y-sm $btn-icon-padding-x-sm;
+    }
+    &.btn-lg {
+        padding: $btn-icon-padding-y-lg $btn-icon-padding-x-lg;
+    }
+}

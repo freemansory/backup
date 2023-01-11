@@ -1,0 +1,60 @@
+.iq-product-offer {
+    padding: 120px 0;
+
+    .iq-product-offer-block {
+        position: relative;
+        overflow: hidden;
+        border-radius: 5px;
+
+        .iq-offer-back-img {
+            -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+            transform: scale(1);
+            background-image: url("../images/product-offer/01.jpg");
+            background-position: center center;
+            background-size: cover;
+        }
+        &:hover {
+            .iq-offer-back-img {
+                -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                transform: scale(1.2);
+            }
+        }
+        .iq-offer-info {
+            position: relative;
+            -webkit-transition: .5s;
+            -o-transition: .5s;
+            transition: .5s;
+            color: $white;
+            text-align: left;
+            padding: 0 0 0 55px;
+            min-height: 280px;
+            z-index: 1;
+            overflow: hidden;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-line-pack: center;
+            align-content: center;
+            padding: 35px;
+            width: 100%;
+            .iq-btn-container {
+                display: block;
+                width: 100%;
+            }
+            .iq-offer-sub {
+                display: block;
+                width: 100%;
+                color: $primary;
+                font-size: 22px;
+                letter-spacing: 2px;
+            }
+        }
+    }
+}

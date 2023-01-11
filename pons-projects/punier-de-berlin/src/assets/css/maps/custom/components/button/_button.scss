@@ -1,0 +1,253 @@
+
+.iq-button-effact {
+	--text: $white;
+	--font-size: 16px;
+	--duration: 0.5s;
+	--move-hover: -4px;
+	font-weight: 500;
+	display: block;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	text-decoration: none;
+	letter-spacing: 0.5px;
+	// text-transform: uppercase;
+	background: var(--background);
+	transform: translateY(var(--y));
+	transition: transform var(--duration) ease, box-shadow var(--duration) ease;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-appearance: none;
+	
+	&:hover {
+		--move: -4px;
+		span {
+			-webkit-animation: move var(--duration) linear var(--d);
+			animation: move var(--duration) linear var(--d);
+		}
+	}
+}
+.animation-btn{
+	color: $white;
+	padding: 12px 30px;
+	line-height: normal !important;
+	z-index: 1;
+    font-weight: normal;
+    position: relative;
+	font-weight: 500;
+	font-size: 1rem;
+	transition: all 0.5s ease-in-out;
+	&:hover{
+		background: $primary;
+        color: $white;
+        text-decoration: none;
+        border-color: $primary;
+	}
+}
+
+.swiper-wrapper{
+	.animation-btn{
+		padding: 9px 16px;
+	}
+}
+.iq-btn-read-effect{
+	span{
+		&:hover{
+			color: $secondary !important;
+		}
+	}
+}
+.iq-button-effect1 {
+	--text: $white;
+	--font-size: 16px;
+	--duration: 0.5s;
+	--move-hover: -4px;
+	font-weight: 500;
+	display: block;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	text-decoration: none;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	background: var(--background);
+	transform: translateY(var(--y));
+	transition: transform var(--duration) ease, box-shadow var(--duration) ease;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-appearance: none;
+	
+	&:hover {
+		--move: -4px;
+		span {
+			-webkit-animation: move var(--duration) linear var(--d);
+			animation: move var(--duration) linear var(--d);
+		}
+	}
+}
+
+.iq-button-effact div {
+	display: flex;
+}
+.iq-button-effact div span{
+	margin: 0 0.02em;
+	display: block;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	font-style: normal;
+}
+
+@keyframes move {
+    40% {
+      transform: translateY(var(--move));
+      text-shadow: var(--shadow-active);
+    }
+  }
+  
+  @-webkit-keyframes move {
+    40% {
+      transform: translateY(var(--move));
+      text-shadow: var(--shadow-active);
+    }
+  }
+.iq-button-effact div span:nth-child(1){
+	--d: 0.05s;
+}
+.iq-button-effact div span:nth-child(2) {
+	--d: 0.1s;
+}
+.iq-button-effact div span:nth-child(3) {
+	--d: 0.15s;
+}
+.iq-button-effact div span:nth-child(4) {
+	--d: 0.2s;
+}
+.iq-button-effact div span:nth-child(5) {
+	--d: 0.25s;
+}
+.iq-button-effact div span:nth-child(6){
+	--d: 0.3s;
+}
+.iq-button-effact div span:nth-child(7){
+	--d: 0.35s;
+}
+.iq-button-effact div span:nth-child(8){
+	--d: 0.4s;
+}
+.iq-button-effact div span:nth-child(9) {
+	--d: 0.45s;
+}
+.iq-button-effact div span:nth-child(10){
+	--d: 0.5s;
+}
+.iq-button-effact div span:nth-child(11){
+	--d: 0.55s;
+}
+.iq-button-effact div span:nth-child(12){
+	--d: 0.6s;
+}
+.iq-button-effact div span:nth-child(13){
+	--d: 0.65s;
+}
+.iq-button-effact div span:nth-child(14){
+	--d: 0.7s;
+}
+.iq-button-effact div span:nth-child(15){
+	--d: 0.75s;
+}
+.iq-button-effact div span:nth-child(16){
+	--d: 0.8s;
+}
+.iq-button-effact div span:nth-child(17){
+	--d: 0.85s;
+}
+.iq-button-effact div span:nth-child(18){
+	--d: 0.9s;
+}
+.iq-button-effact div span:nth-child(19){
+	--d: 0.95s;
+}
+.iq-button-effact div span:nth-child(20) {
+	--d: 1s;
+}
+.iq-button-effact div span:nth-child(21){
+	--d: 1.05s;
+}
+.iq-button-effact div span:nth-child(22){
+	--d: 1.10s;
+}
+.iq-button-effact div span:nth-child(23){
+	--d: 1.15s;
+}
+.iq-button-effact div span:nth-child(24){
+	--d: 1.20s;
+}
+.iq-button-effact div span:nth-child(25) {
+	--d: 1.25s;
+}
+.iq-button-effact div span:nth-child(26){
+	--d: 01.30s;
+}
+.iq-button-effact div span:nth-child(27) {
+	--d: 1.35s;
+}
+.iq-button-effact div span:nth-child(28){
+	--d: 1.40s;
+}
+.iq-button-effact div span:nth-child(29){
+	--d: 1.45s;
+}
+.iq-button-effact div span:nth-child(30){
+	--d: 1.50s;
+}
+.iq-button {
+    z-index: 1;
+    line-height: normal !important;
+    font-size: 16px;
+    font-weight: normal;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 12px 30px;
+    background: $secondary;
+    color: $white;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+        background: $primary;
+        color: $white;
+        text-decoration: none;
+        border-color: $primary;
+    }
+}
+.iq-button-viewcart{
+    z-index: 1;
+    line-height: normal !important;
+    font-size: 16px;
+    font-weight: normal;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 14px 15px;
+    background: $secondary;
+    color: $white;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+    text-decoration: none;
+    cursor: pointer;
+}
+.iq-button-checkout{
+    background: $success;
+}
+$btn-icon-padding-y:      .25rem !default;
+$btn-icon-padding-x:      .5rem !default;
+
+$btn-icon-padding-y-sm:      .125rem !default;
+$btn-icon-padding-x-sm:      .25rem !default;
+
+$btn-icon-padding-y-lg:      .5rem !default;
+$btn-icon-padding-x-lg:      1rem !default;

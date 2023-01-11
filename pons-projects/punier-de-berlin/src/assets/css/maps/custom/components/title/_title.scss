@@ -1,0 +1,115 @@
+.iq-grocery-card{
+	margin-top: -3rem;
+}
+.iq-title-box {
+    margin-bottom: 60px;
+    .iq-title {
+        margin: 0;
+    }
+	.iq-subtitle {
+		color: $primary;
+		font-size: 22px;
+		line-height: 1;
+		letter-spacing: 2px;
+		font-family: 'Satisfy', cursive;
+	}
+    .iq-title-divider {
+        background:$secondary;
+        height: 3px;
+        display: inline-block;
+        width: 50px;
+    }
+}
+.iq-title-box1 {
+    margin-bottom: 0px;
+    .iq-title {
+        margin: 0;
+    }
+	.iq-subtitle {
+		color: $primary;
+		font-size: 22px;
+		line-height: 1;
+		letter-spacing: 2px;
+		font-family: 'Satisfy', cursive;
+	}
+    .iq-title-divider {
+        background:$secondary;
+        height: 3px;
+        display: inline-block;
+        width: 30px;
+    }
+}
+.scrolling-text {
+  font-family: $headings-font-family;
+	font-size: 130px;
+	line-height: 0px;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: transparent;
+	z-index: -1;
+	-webkit-text-stroke: 1px $primary;
+	opacity: 0.2;
+	.skrollable {
+		z-index: -1;
+	}
+	&.vertical-scroll{
+		transform: rotate(-90deg);
+	}
+}
+.iq-team-style-1 {
+	&.detail-page {
+		.iq-team-blog {
+			margin: 0;
+			.iq-team-info {
+				p {
+					margin-top: 15px;
+					margin-bottom: 0;
+					padding-top: 20px;
+					border-top: 1px solid rgba(0, 0, 0, 0.06);
+				}
+			}
+		}
+	}
+	&.iq-doctor-info {
+		.iq-team-blog {
+			.iq-team-info {
+				.iq-team-main-detail {
+					clip-path: inset(0 0 0 0);
+					-webkit-clip-path: inset(0 0 0 0);
+				}
+				&:after {
+					clip-path: inset(0 0 0 0);
+					-webkit-clip-path: inset(0 0 0 0);
+				}
+			}
+		}
+	}
+}
+.chat-list-main{
+	li:last-child {
+		border: none;
+		padding: 1rem 0 0;
+	}
+	.chat-list{
+		border-bottom: 1px solid rgba(82, 95, 129, 0.09);
+		padding: 1rem 0;
+		.pointer{
+			color: $gray-700;
+		}
+	}
+	// &:last-child{
+	// 	border-bottom: none;
+	// }
+}
+
+@include media-breakpoint-down(lg) {
+	.scrolling-text {
+		font-size: 60px;
+	}
+}
+
+@include media-breakpoint-down(xl) {
+	.iq-grocery-card{
+		margin-top: 3rem;
+	}
+}

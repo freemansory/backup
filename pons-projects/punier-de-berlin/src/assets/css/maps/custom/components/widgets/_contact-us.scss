@@ -1,0 +1,27 @@
+.fav {
+  i {
+    font-size: 40px;
+    color: $primary;
+      
+  }
+  i:hover {
+    color: $secondary;
+  }
+}
+.iq-title-divider {
+  background:$secondary;
+  height: 3px;
+  display: inline-block;
+  width: 50px;
+}
+@include media-breakpoint-down(sm) { 
+  .contact-img{
+    display: none;
+  }
+} 
+@include media-breakpoint-down(sm) { 
+  .container-fluids{
+    width: 100%;
+    padding: 15px;
+  }
+} 

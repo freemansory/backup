@@ -1,0 +1,36 @@
+.shop-attributes {
+    border: 1px solid $primary;
+    border-collapse: separate;
+    border-radius: 5px;
+    margin: 0;
+    width: 100%;
+    tr {
+        display: table-row;
+        vertical-align: inherit;
+        border-color: inherit;
+    }
+    th {
+        width: 150px;
+        border-right: 1px solid $primary;
+        font-weight: 600;
+        padding: 10px 5px 10px 25px;
+        border-top: 0;
+        margin: 0;
+    }
+    td {
+        padding: 8px 30px;
+        border-top: 0;
+        margin: 0;
+        border: 0;
+        vertical-align: text-bottom;
+        line-height: 2em;
+        text-align: left;
+        font-style: italic;
+    }
+    tr:nth-child(even) th {
+        background: rgba(0,0,0,.025);
+    }
+    tr:nth-child(even) td {
+        background: rgba(0,0,0,.025);
+    }
+}

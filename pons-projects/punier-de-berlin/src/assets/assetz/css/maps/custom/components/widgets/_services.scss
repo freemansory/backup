@@ -1,0 +1,76 @@
+.services-icon-box-icon{
+    .svg-icon{
+        width: 50px;
+        height: 50px;
+        position: relative;
+        display: block;
+    }
+}
+
+
+//services banner///
+.services-banner{
+    transition: background 0.3s;
+    border:0.3s;
+     border-radius:0.3s,
+      box-shadow 0.3s;
+
+      &.service-background {
+          background: url("../images/services/service-bg.png") no-repeat fixed;
+      }
+}
+.services-container {
+	-webkit-tranall:0.3s ease-out 0s;
+}
+.iq-product-offer-block {
+	.iq-offer-back-img {
+		transform: scale(1);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transition: all 0.3s ease-out 0s;
+        width: 100%;
+        background: url(../images/services/01.png) no-repeat scroll;
+        background-size: cover;
+       &.iq-offer-back-img-2{
+            background:url(../images/services/02.png) no-repeat scroll;
+            background-size: cover;
+        }
+        &.iq-offer-back-img-3{
+            background:url(../images/services/03.png) no-repeat scroll;
+            background-size: cover;
+        }
+        &.service-image {
+            background:url(../images/services/06.png) no-repeat scroll;
+        }
+        &.service-image-2 {
+            background:url(../images/services/05.png) no-repeat scroll;
+        }
+        &.service-image-3 {
+            background:url(../images/services/02.png) no-repeat scroll;
+        }
+	}
+	&:hover {
+		.iq-offer-back-img {
+			-webkit-transform: scale(1.2);
+			-ms-transform: scale(1.2);
+			transform: scale(1.2);
+		}
+	}
+	.iq-offer-info {
+		-webkit-transition: .5s;
+		-o-transition: .5s;
+		transition: .5s;
+		min-height: 280px;
+		z-index: 1;
+	}
+    .iq-offer-info {
+        .iq-offer-sub {
+            font-family: "Satisfy", Sans-serif;
+            text-transform: none;
+        }
+    }
+}
+

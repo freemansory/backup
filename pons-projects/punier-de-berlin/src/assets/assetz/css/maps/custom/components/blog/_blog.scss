@@ -1,0 +1,27 @@
+.iq-blog{
+    .iq-btn-link{
+        :hover{
+            color:$orange;
+        }
+    }
+    .iq-blog-meta{
+        font-weight: 600;
+        :hover{
+            color: $orange;
+            transition: 500ms;
+        }
+    }
+    .iq-blog-category{
+        :hover{
+            color: $white;
+            background-color:$orange !important;
+            transition: 500ms;
+        }
+    }
+    .iq-title{
+        :hover{
+            color: $primary;
+        }
+    }
+    
+}

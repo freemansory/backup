@@ -1,0 +1,22 @@
+#home-1 {
+  .scrolling-text {
+    display: none;
+  }
+  @include media-breakpoint-up(md) {
+    &.banner {
+      min-height: 740px;
+    }
+    .scrolling-text {
+      display: block;
+    }
+    .slider-text {
+      transform-origin: left;
+      position: absolute;
+      left: 0%;
+      top: 250px;
+    }
+    .hero-left{
+      margin-left: 6rem;
+    }
+  }
+}

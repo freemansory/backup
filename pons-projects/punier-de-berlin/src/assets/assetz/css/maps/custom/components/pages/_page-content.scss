@@ -1,0 +1,57 @@
+*::-moz-selection {
+	background: $primary;
+	color: $white;
+	text-shadow: none;
+}
+::-moz-selection {
+	background: $primary;
+	color: $white;
+	text-shadow: none;
+}
+::selection {
+	background: $primary;
+	color: $white;
+	text-shadow: none;
+}
+body {
+	overflow-x: hidden;
+}
+
+.section-padding-120 {
+  padding: 120px 0;
+  overflow: hidden !important;
+}
+.section-margin-120{
+	margin: 120px 0px;
+}
+.container {
+	max-width: 1400px !important;
+}
+.banner{
+	background: tint-color($primary, 80%);
+}
+.section-padding-120 {
+	padding: 120px 0;
+}
+.section-padding-botton-90{
+	padding-bottom:90px;
+}
+.organic_image {
+	background: url("../images/product/organic-product/01.png");
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	min-height: 900px;
+}
+.feature_image {
+	background: url("../images/product/feature-product/01.png");
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	min-height: 794px;
+}
+@media (max-width: 1024px){
+	.section-padding-120 {
+		padding: 70px 0;
+	}
+}

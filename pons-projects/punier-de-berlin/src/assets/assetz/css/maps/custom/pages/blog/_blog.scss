@@ -1,0 +1,45 @@
+.blog-carousel {
+    margin: 0;
+    float: left;
+    width: 100%;
+    clear: both;
+    display: block;
+    .blog-carousel{
+        margin-bottom: 0;
+        border: 0px solid var(--white-light-color);
+        border-radius: 5px;
+        
+    }
+}
+.iq-postdate {
+    font-size: 14px;
+    transform: rotate(180deg);
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    top: 30px;
+    position: absolute;
+    left: -10px;
+    padding: 5px;
+    text-transform: uppercase;
+    margin: 0;
+    .list-inline-item {
+        display: inline-block;
+
+        a {
+            text-decoration: none;
+            color: $primary;
+        }
+    }
+    .screen-reader-text {
+        position: absolute !important;
+        clip: rect(1px, 1px, 1px, 1px);
+        overflow: hidden;
+        height: 1px;
+        width: 1px;
+        display: none;
+    }
+}
+
+.iq-blog-meta{
+    text-transform: uppercase;
+}
